@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1616490382 source:d:\test\vector\main.cpp
+	"vector.hpp"
+	<iostream>
+	<vector>
+
+1616655189 d:\test\vector\vector.hpp
+	<climits>
+	<cstddef>
+	"exceptions.hpp"
+
+1616225456 d:\test\vector\exceptions.hpp
+	<cstddef>
+	<cstring>
+	<string>
+
