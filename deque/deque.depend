@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1619438582 source:d:\test\deque\main.cpp
+	<iostream>
+	<ctime>
+	<vector>
+	<deque>
+	<random>
+	"class-integer.hpp"
+	"class-matrix.hpp"
+	"class-bint.hpp"
+	"deque.hpp"
+
+1619439568 d:\test\deque\deque.hpp
+	"exceptions.hpp"
+	<cstddef>
+
+1617951364 d:\test\deque\exceptions.hpp
+	<cstddef>
+	<cstring>
+	<string>
+
+1587481662 d:\test\deque\class-integer.hpp
+
+1587481662 d:\test\deque\class-matrix.hpp
+	<iostream>
+	<iomanip>
+	<vector>
+	<stdexcept>
+
+1587481662 d:\test\deque\class-bint.hpp
+	<string>
+	<iostream>
+	<cstring>
+	<cstdlib>
+	<vector>
+	<stdexcept>
+	<iomanip>
+	<algorithm>
+

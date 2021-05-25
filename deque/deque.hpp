@@ -77,7 +77,7 @@ namespace sjtu {
             deque * deq;
             int pos;
 
-            iterator More(const int &n){                                            //鍚戝悗绉诲姩
+            iterator More(const int &n){                                            //向后移动
                 node* p = nd; int cnt = 0; int delta;
                 if (n > deq->CurrentLen) throw(runtime_error());
                 if (n == 0) return *this;
@@ -106,7 +106,7 @@ namespace sjtu {
                 if (cnt >= p->size) throw(runtime_error());
                 return iterator(p,deq, cnt);
             }
-            iterator Less(const int &n){                               //鍚戝墠绉诲姩
+            iterator Less(const int &n){                               //向前移动
                 node * p = nd; int cnt = n;
                 if (n == 0) return *this;
                 while(cnt > 0){
