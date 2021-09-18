@@ -1,3 +1,5 @@
+//vector
+
 #ifndef VECTOR_HPP_INCLUDED
 #define VECTOR_HPP_INCLUDED
 
@@ -10,9 +12,9 @@ namespace sjtu {
 template<typename T>
 class vector {
 public:
-     T *data;
-     size_t sizeofdata;
-     size_t max_size;
+     T *data;    
+     size_t sizeofdata; //存储数据大小
+     size_t max_size;  //总共空间大小
 
      void doublespace()
      {
@@ -227,8 +229,8 @@ class const_iterator {
         else return data[sizeofdata-1];
     }
 
-    iterator begin() { return iterator(data);}                                  //not finished yet
-    const_iterator cbegin() const {return const_iterator(data);}                     //
+    iterator begin() { return iterator(data);}                                  
+    const_iterator cbegin() const {return const_iterator(data);}                     
 
     iterator end() {return iterator(data+sizeofdata);}
     const_iterator cend() const {return const_iterator(data+sizeofdata);}
